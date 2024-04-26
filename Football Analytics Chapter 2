@@ -3,19 +3,19 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "2336859e",
+   "id": "26ea1931",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-04-26T03:16:08.281421Z",
-     "iopub.status.busy": "2024-04-26T03:16:08.280938Z",
-     "iopub.status.idle": "2024-04-26T03:16:29.503818Z",
-     "shell.execute_reply": "2024-04-26T03:16:29.502454Z"
+     "iopub.execute_input": "2024-04-26T04:07:22.233474Z",
+     "iopub.status.busy": "2024-04-26T04:07:22.233121Z",
+     "iopub.status.idle": "2024-04-26T04:07:40.590738Z",
+     "shell.execute_reply": "2024-04-26T04:07:40.589312Z"
     },
     "papermill": {
-     "duration": 21.230865,
-     "end_time": "2024-04-26T03:16:29.506799",
+     "duration": 18.365081,
+     "end_time": "2024-04-26T04:07:40.593422",
      "exception": false,
-     "start_time": "2024-04-26T03:16:08.275934",
+     "start_time": "2024-04-26T04:07:22.228341",
      "status": "completed"
     },
     "tags": []
@@ -45,13 +45,13 @@
       "Requirement already satisfied: six>=1.5 in /opt/conda/lib/python3.10/site-packages (from python-dateutil>=2.8.2->pandas>1->nfl_data_py) (1.16.0)\r\n",
       "Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /opt/conda/lib/python3.10/site-packages (from packaging->fastparquet>0.5->nfl_data_py) (3.1.1)\r\n",
       "Downloading fastparquet-2024.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.7 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.7/1.7 MB\u001b[0m \u001b[31m26.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.7/1.7 MB\u001b[0m \u001b[31m3.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading python_snappy-0.7.1-py3-none-any.whl (8.6 kB)\r\n",
       "Downloading cramjam-2.8.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.0 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.0/2.0 MB\u001b[0m \u001b[31m46.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.0/2.0 MB\u001b[0m \u001b[31m19.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hBuilding wheels for collected packages: nfl_data_py\r\n",
       "  Building wheel for nfl_data_py (setup.py) ... \u001b[?25l-\b \bdone\r\n",
-      "\u001b[?25h  Created wheel for nfl_data_py: filename=nfl_data_py-0.3.1-py3-none-any.whl size=13182 sha256=26914f15836e52538309879f0059b7e652d25d0445eb0eed924724ab3b40c525\r\n",
+      "\u001b[?25h  Created wheel for nfl_data_py: filename=nfl_data_py-0.3.1-py3-none-any.whl size=13182 sha256=a5f59aa1a6873d20bde97743f4ca80defe4eb77ef25af412581ce9a4c5c407ab\r\n",
       "  Stored in directory: /root/.cache/pip/wheels/ca/2e/d2/4def312ac7c070e1c0002e91ecc6923481a86c3ebd5b2c5413\r\n",
       "Successfully built nfl_data_py\r\n",
       "Installing collected packages: cramjam, python-snappy, fastparquet, nfl_data_py\r\n",
@@ -66,21 +66,21 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "4f451f42",
+   "id": "743e906c",
    "metadata": {
     "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
     "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
     "execution": {
-     "iopub.execute_input": "2024-04-26T03:16:29.517567Z",
-     "iopub.status.busy": "2024-04-26T03:16:29.517111Z",
-     "iopub.status.idle": "2024-04-26T03:16:30.652836Z",
-     "shell.execute_reply": "2024-04-26T03:16:30.651465Z"
+     "iopub.execute_input": "2024-04-26T04:07:40.606053Z",
+     "iopub.status.busy": "2024-04-26T04:07:40.605605Z",
+     "iopub.status.idle": "2024-04-26T04:07:41.517717Z",
+     "shell.execute_reply": "2024-04-26T04:07:41.516703Z"
     },
     "papermill": {
-     "duration": 1.145216,
-     "end_time": "2024-04-26T03:16:30.656401",
+     "duration": 0.921481,
+     "end_time": "2024-04-26T04:07:41.520352",
      "exception": false,
-     "start_time": "2024-04-26T03:16:29.511185",
+     "start_time": "2024-04-26T04:07:40.598871",
      "status": "completed"
     },
     "tags": []
@@ -93,7 +93,7 @@
     "\n",
     "import numpy as np # linear algebra\n",
     "import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)\n",
-    "\n",
+    "import nfl_data_py as nfl\n",
     "# Input data files are available in the read-only \"../input/\" directory\n",
     "# For example, running this (by clicking run or pressing Shift+Enter) will list all files under the input directory\n",
     "\n",
@@ -105,6 +105,227 @@
     "# You can write up to 20GB to the current directory (/kaggle/working/) that gets preserved as output when you create a version using \"Save & Run All\" \n",
     "# You can also write temporary files to /kaggle/temp/, but they won't be saved outside of the current session"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "7045aea9",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-04-26T04:07:41.533502Z",
+     "iopub.status.busy": "2024-04-26T04:07:41.532405Z",
+     "iopub.status.idle": "2024-04-26T04:08:16.901706Z",
+     "shell.execute_reply": "2024-04-26T04:08:16.900710Z"
+    },
+    "papermill": {
+     "duration": 35.378629,
+     "end_time": "2024-04-26T04:08:16.904284",
+     "exception": false,
+     "start_time": "2024-04-26T04:07:41.525655",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2016 done.\n",
+      "2017 done.\n",
+      "2018 done.\n",
+      "2019 done.\n",
+      "2020 done.\n",
+      "2021 done.\n",
+      "2022 done.\n",
+      "Downcasting floats.\n"
+     ]
+    }
+   ],
+   "source": [
+    "seasons = range (2016, 2022+1)\n",
+    "pbp_py = nfl.import_pbp_data(seasons)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "e8a19dca",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-04-26T04:08:16.917324Z",
+     "iopub.status.busy": "2024-04-26T04:08:16.916932Z",
+     "iopub.status.idle": "2024-04-26T04:08:17.888761Z",
+     "shell.execute_reply": "2024-04-26T04:08:17.887556Z"
+    },
+    "papermill": {
+     "duration": 0.981538,
+     "end_time": "2024-04-26T04:08:17.891452",
+     "exception": false,
+     "start_time": "2024-04-26T04:08:16.909914",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "pbp_py_p = pbp_py.query(\"play_type == 'pass' & air_yards.notnull()\").reset_index()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "a45f359f",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-04-26T04:08:17.905546Z",
+     "iopub.status.busy": "2024-04-26T04:08:17.904443Z",
+     "iopub.status.idle": "2024-04-26T04:08:17.927909Z",
+     "shell.execute_reply": "2024-04-26T04:08:17.926741Z"
+    },
+    "papermill": {
+     "duration": 0.033317,
+     "end_time": "2024-04-26T04:08:17.930483",
+     "exception": false,
+     "start_time": "2024-04-26T04:08:17.897166",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "pbp_py_p['pass_length_air_yards'] = np.where(pbp_py_p['air_yards'] >= 20, \"long\", \"short\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "82b284e2",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-04-26T04:08:17.943425Z",
+     "iopub.status.busy": "2024-04-26T04:08:17.943060Z",
+     "iopub.status.idle": "2024-04-26T04:08:17.949449Z",
+     "shell.execute_reply": "2024-04-26T04:08:17.948443Z"
+    },
+    "papermill": {
+     "duration": 0.015497,
+     "end_time": "2024-04-26T04:08:17.951649",
+     "exception": false,
+     "start_time": "2024-04-26T04:08:17.936152",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "pbp_py_p['passing_yards'] = np.where(pbp_py_p['passing_yards'].isnull(), 0, pbp_py_p['passing_yards'])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "0272f869",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-04-26T04:08:17.964657Z",
+     "iopub.status.busy": "2024-04-26T04:08:17.964237Z",
+     "iopub.status.idle": "2024-04-26T04:08:17.984990Z",
+     "shell.execute_reply": "2024-04-26T04:08:17.983927Z"
+    },
+    "papermill": {
+     "duration": 0.029858,
+     "end_time": "2024-04-26T04:08:17.987186",
+     "exception": false,
+     "start_time": "2024-04-26T04:08:17.957328",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "count    131606.000000\n",
+       "mean          7.191807\n",
+       "std           9.666765\n",
+       "min         -20.000000\n",
+       "25%           0.000000\n",
+       "50%           5.000000\n",
+       "75%          11.000000\n",
+       "max          98.000000\n",
+       "Name: passing_yards, dtype: float64"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "pbp_py_p['passing_yards'].describe()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "bf499712",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-04-26T04:08:18.000431Z",
+     "iopub.status.busy": "2024-04-26T04:08:18.000039Z",
+     "iopub.status.idle": "2024-04-26T04:08:18.437958Z",
+     "shell.execute_reply": "2024-04-26T04:08:18.436775Z"
+    },
+    "papermill": {
+     "duration": 0.447629,
+     "end_time": "2024-04-26T04:08:18.440580",
+     "exception": false,
+     "start_time": "2024-04-26T04:08:17.992951",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "count    116085.000000\n",
+       "mean          6.525623\n",
+       "std           7.695175\n",
+       "min         -20.000000\n",
+       "25%           0.000000\n",
+       "50%           5.000000\n",
+       "75%          10.000000\n",
+       "max          95.000000\n",
+       "Name: passing_yards, dtype: float64"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "pbp_py_p.query('pass_length_air_yards == \"short\"')['passing_yards'].describe()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ace98277",
+   "metadata": {
+    "papermill": {
+     "duration": 0.005574,
+     "end_time": "2024-04-26T04:08:18.452154",
+     "exception": false,
+     "start_time": "2024-04-26T04:08:18.446580",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
@@ -136,14 +357,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 26.507884,
-   "end_time": "2024-04-26T03:16:31.386437",
+   "duration": 59.952313,
+   "end_time": "2024-04-26T04:08:19.381121",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2024-04-26T03:16:04.878553",
+   "start_time": "2024-04-26T04:07:19.428808",
    "version": "2.5.0"
   }
  },
